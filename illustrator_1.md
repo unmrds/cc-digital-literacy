@@ -4,6 +4,10 @@
 
 There is an excellent tutorial on these and other topics at _An Adobe Illustrator Companion_, by Steven G. Braun: <http://www.stevengbraun.com/ws/intro-adobe-illustrator/>
 
+The sun image used for the raster tracing example is available from Creative Commons:
+
+<p style="font-size: 0.9rem;font-style: italic;"><a href="http://www.flickr.com/photos/10957255@N08/15102913302">"Sun"</a><span>by <a href="http://www.flickr.com/photos/10957255@N08">Chris Yarzab</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-SA 2.0</a><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;opacity: .7;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-sa_icon.svg" /></a></p>
+
 ## Objectives
 
 1. Define IDE and workspaces, differences between these and workflows using traditional productivity applications.
@@ -94,3 +98,45 @@ It's possible to combine shapes in creative ways. We can demonstrate this by bui
 **Exercise:** Using the tools we've looked at, finish the snowman, the basketball, and add a line to the drawing for the ground.
 
 ![Snowman example](./images/illustrator-1-snowman.png)
+
+## Why Illustrator? Vector vs. Raster Graphics
+
+It might seem like a lot of work to draw a snowman - as poweful as these tools might be, there are many other apps we can use to draw shapes, create posters, etc. As part of an overall design workflow, however, the use case for Illustrator is vector graphics. Within the Adobe Creative Cloud suite, which is composed of specialized apps, Illustrator is _the_ vector graphics tool.
+
+In comparison with raster graphics (.png, .jpg, etc.), vector graphics are easier to manipulate and scale without loss of fidelity. We can demonstrate this with our snowman:
+
+1. Export the graphic to .png and .svg formats.
+2. Open each in a new tab within Illustrator.
+3. Using the zoom tool at the bottom of the page, zoom both images to 600% and 800%. Note the loss of fidelity in the .png version.
+
+What is the benefit of this? For example, why would we want to use vector graphics for a logo?
+
+
+### Vectorizing Raster Images
+
+Let's put a sun in our snowman graphic. We could draw one, but in this case we will trace an actual picture of the sun from a raster image. The image is Creative Commons licensed by creator Chris Yarzab:
+
+<p style="font-size: 0.9rem;font-style: italic;"><a href="http://www.flickr.com/photos/10957255@N08/15102913302">"Sun"</a><span>by <a href="http://www.flickr.com/photos/10957255@N08">Chris Yarzab</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-SA 2.0</a><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;opacity: .7;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-sa_icon.svg" /></a></p>
+
+1. Download the image from the Creative Commons website: <https://search.creativecommons.org/photos/a8f7b401-1dbc-4464-a971-cd9e03fe1b7f>
+2. Drag it into the Illustrator workspace. Resize as needed using the properties tab.
+3. Click the select tool and select the image. In the properties tab, under _Quick Actions_, click on _Image Trace_.
+4. Try a few different tracing styles. Some may take afew seconds to run. For this example, I like '6 colors.'
+5. Once you have found a tracing style you like, click on _Expand_. Note that you cannot try other styles after expanding.
+6. Zoom in as needed and use the lasso tool to draw a new shape around the sun.
+7. Copy and paste, then drag the pasted image into our postcard.
+
+### Vectorizing Text
+
+It is also possible to vectoring text. This can be done using the text tool, or by importing text from an existing document in MS Word or other formats.
+
+1. Using the navigation tool at the bottom of the window, select artboard 2.
+2. Using the line tool, add a vertical line to the middle of the artboard. Also, add three or four horizontal lines for the address.
+3. Use the text tool to add an addressee.
+4. For the message, click _File->Place_. Select the 'sampe_text.txt' file and insert on the left side of the artboard.
+5. Use the _Character_ options in the properties tab to change the font, font size, and other properties.
+
+
+## Creating Libraries with Adobe Capture
+
+...
