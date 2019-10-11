@@ -4,10 +4,6 @@
 
 There is an excellent tutorial on these and other topics at _An Adobe Illustrator Companion_, by Steven G. Braun: <http://www.stevengbraun.com/ws/intro-adobe-illustrator/>
 
-The sun image used for the raster tracing example is available from Creative Commons:
-
-<p style="font-size: 0.9rem;font-style: italic;"><a href="http://www.flickr.com/photos/10957255@N08/15102913302">"Sun"</a><span>by <a href="http://www.flickr.com/photos/10957255@N08">Chris Yarzab</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-SA 2.0</a><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;opacity: .7;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-sa_icon.svg" /></a></p>
-
 ## Objectives
 
 1. Define IDE and workspaces, differences between these and workflows using traditional productivity applications.
@@ -98,6 +94,24 @@ It's possible to combine shapes in creative ways. We can demonstrate this by bui
 **Exercise:** Using the tools we've looked at, finish the snowman, the basketball, and add a line to the drawing for the ground.
 
 ![Snowman example](./images/illustrator-1-snowman.png)
+
+### Working with Colors
+
+1. Using select tool, drag across all of snowman. Be sure to include all shapes in the drawing.
+2. Click _Group_ in properties to group so we can copy and move all together.
+3. CTL-C and CTL-V to copy/paste.
+4. Click on a path in the pasted snowman, drag somewhere else. Resize as needed.
+5. Pick one snowman, select and edit _Fill_ properties. Click a color to assign, double click to edit. Make global.
+6. Shift select to select other snowmen. Apply fill.
+7. Click on fill, double click swarch. Make edits and preview - note all snowmen change color.
+
+We can also change whole color profile at once.
+
+1. Click _Select->All_ from _Select_ menu.
+2. In properties, click _Recolor_.
+3. The colors in our drawing are shown. Click _Edit_. Opens a color wheel.
+4. Adjust individual colors.
+5. Click _Link harmony colors_ to adjust all at once - maintain color relationships. Note auto-adjustment of all colors.
 
 ## Why Illustrator? Vector vs. Raster Graphics
 
